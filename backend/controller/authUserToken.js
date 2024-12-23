@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const User = require("../models/User"); // Adjust path to your User model
+const User = require("../models/user"); // Adjust path to your User model
 
 const authSellerToken = async (req, res, next) => {
   try {
